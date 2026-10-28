@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets: never commit these
+.env
+
+# Local database (rebuilt by load_data.py)
+data/*.db
+data/*.sqlite
+
+# macOS / editor files
+.DS_Store
+.vscode/
